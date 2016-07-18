@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="Stephanies-MacBook-Pro-2.local" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="9.453" timestamp="2016-07-18T15:36:44">
+<testsuite errors="0" failures="1" hostname="Stephanies-MacBook-Pro-2.local" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="10.47" timestamp="2016-07-18T15:57:45">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -73,14 +73,13 @@
     <property name="env.TERM_PROGRAM" value="Apple_Terminal" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.library.path" value="/Users/stephanieangulo/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
-    <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="gopherProxySet" value="false" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/bin:/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/lib/jsoup-1.8.3.jar:/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/lib/junit-4.12.jar:/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit/TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junitvmwatcher7827099071725743112.properties propsfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit3388995027728364808.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit/TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junitvmwatcher6819031601576973149.properties propsfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit8029551512607628061.properties" />
     <property name="env.TERM_SESSION_ID" value="788BECD0-2DD0-43C2-9BFD-0004DC3100A4" />
-    <property name="env.JAVA_MAIN_CLASS_5014" value="org.apache.tools.ant.launch.Launcher" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="ant.file.type" value="file" />
@@ -105,8 +104,9 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
+    <property name="env.JAVA_MAIN_CLASS_5154" value="org.apache.tools.ant.launch.Launcher" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="9.089">
+  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="10.033">
     <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
 	at com.flatironschool.javacs.WikiPhilosophyTest.testMain(WikiPhilosophyTest.java:32)
 </failure>
@@ -141,7 +141,7 @@ Visiting: https://en.wikipedia.orghttp://mutcd.fhwa.dot.gov/kno-colorspec.htm
 	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:493)
 	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:205)
 	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:194)
-	at com.flatironschool.javacs.WikiFetcher.fetchWikipedia(WikiFetcher.java:30)
+	at com.flatironschool.javacs.WikiFetcher.fetchWikipedia(WikiFetcher.java:31)
 	at com.flatironschool.javacs.WikiPhilosophy.main(WikiPhilosophy.java:38)
 	at com.flatironschool.javacs.WikiPhilosophyTest.testMain(WikiPhilosophyTest.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
