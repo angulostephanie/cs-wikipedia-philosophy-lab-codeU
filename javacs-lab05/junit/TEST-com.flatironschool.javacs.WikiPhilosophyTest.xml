@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Stephanies-MacBook-Pro-2.local" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="5.507" timestamp="2016-08-06T22:36:18">
+<testsuite errors="0" failures="0" hostname="Stephanies-MacBook-Pro-2.local" name="com.flatironschool.javacs.WikiPhilosophyTest" skipped="0" tests="1" time="5.11" timestamp="2016-08-06T22:36:53">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
@@ -49,9 +49,9 @@
     <property name="java.class.version" value="52.0" />
     <property name="user.country" value="US" />
     <property name="ant.file.JavaCS" value="/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml" />
-    <property name="env.JAVA_MAIN_CLASS_2616" value="org.apache.tools.ant.launch.Launcher" />
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home/jre" />
     <property name="java.vm.info" value="mixed mode" />
+    <property name="env.JAVA_MAIN_CLASS_2678" value="org.apache.tools.ant.launch.Launcher" />
     <property name="env.LOGNAME" value="stephanieangulo" />
     <property name="ant.file" value="/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/build.xml" />
     <property name="os.version" value="10.11.6" />
@@ -79,7 +79,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
     <property name="java.class.path" value="/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/bin:/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/lib/jsoup-1.8.3.jar:/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/lib/junit-4.12.jar:/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/lib/hamcrest-core-1.3.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.6/libexec/lib/ant-junit4.jar" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit/TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junitvmwatcher2510102373358502712.properties propsfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit1719176144116322791.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.flatironschool.javacs.WikiPhilosophyTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit/TEST-com.flatironschool.javacs.WikiPhilosophyTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junitvmwatcher7581828062284021790.properties propsfile=/Users/stephanieangulo/Documents/Learn-Co/cs-wikipedia-philosophy-lab-codeU/javacs-lab05/junit7134813036584118529.properties" />
     <property name="env.TERM_SESSION_ID" value="BB53C26E-B31A-4B0D-ACBD-428241551FE6" />
     <property name="ant.file.type.JavaCS" value="file" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -106,7 +106,7 @@
     <property name="java.specification.version" value="1.8" />
     <property name="ant.project.invoked-targets" value="test" />
   </properties>
-  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="5.054" />
+  <testcase classname="com.flatironschool.javacs.WikiPhilosophyTest" name="testMain" time="5.055" />
   <system-out><![CDATA[Fetching https://en.wikipedia.org/wiki/Java_(programming_language)...
 **computer programming language**
 Fetching https://en.wikipedia.org/wiki/Programming_language...
